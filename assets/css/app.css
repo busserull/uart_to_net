@@ -1,0 +1,75 @@
+/* This file is for your main application css. */
+
+div.tile-50 {
+	float: left;
+	position: relative;
+	width: 48%;
+	padding-bottom: 25%;
+	margin: 1%;
+	/* background: #45aaf2; */
+	background: #fd9644;
+	overflow: hidden;
+}
+
+div.tile-50-tag {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+div.tile-50-table {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+div.tile-50-cell {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+	font-size: 200%;
+	color: #ffffff;
+	font-family: sans-serif;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.slider-container {
+	position: relative;
+	width: 98%;
+	margin: 1%;
+	height: 60px;
+	background-color: #f0f0f0;
+}
+
+div.slider-bounding-box {
+	position: absolute;
+	width: calc(100% - 60px);
+	height: 0%;
+	margin: 0 30px;
+}
+
+div.slider-position {
+	position: absolute;
+	height: 60px;
+	background: #fd9644;
+	width: 60px;
+	left: calc(0% - 30px);
+}
+
+#new-game-indicator {
+	color: #453635;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 2%;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

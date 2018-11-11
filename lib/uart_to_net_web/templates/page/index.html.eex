@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="column">
+    <div class="tile-50">
+      <div class="tile-50-tag">
+        <div class="tile-50-table">
+          <div class="tile-50-cell">
+            <h1 class="fas fa-heart" id="lives-indicator"> 0</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tile-50">
+      <div class="tile-50-tag">
+        <div class="tile-50-table">
+          <div class="tile-50-cell">
+            <h1 class="fas fa-star" id="score-indicator"> 0</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="slider-container" id="slider-container">
+    <div class="slider-bounding-box">
+      <div class="slider-position" id="slider-indicator">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <h1 id="new-game-indicator">
+    Click anywhere to start a new game
+  </h1>
+</div>
