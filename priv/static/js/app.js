@@ -1744,7 +1744,7 @@ var controller = {
 		right_extreme = right_extreme.right;
 
 		document.onmousemove = function (event) {
-			var mouse_position = event.screenX;
+			var mouse_position = event.clientX;
 			var width = right_extreme - left_extreme;
 
 			if (mouse_position < left_extreme) {

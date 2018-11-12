@@ -61,7 +61,7 @@ let controller = {
 		right_extreme = right_extreme.right
 
 		document.onmousemove = (event) => {
-			let mouse_position = event.screenX
+			let mouse_position = event.clientX
 			let width = right_extreme - left_extreme
 
 			if(mouse_position < left_extreme){
